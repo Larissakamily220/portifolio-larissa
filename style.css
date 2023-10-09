@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.header-menu{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  height: 50px;
+  background-color: #526760; 
+}
+
+.header-menu nav{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.lista-menu li>a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: inherit;
+}
+
+.lista-menu{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+}
+
+.principal{
+  height: 100vh;
+  display: flex;
+  background-color: #eaeaea;
+}
+
+.sub-container-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 75px;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.nome-completo{
+  font-size: 36px;
+  color: #873d48;
+  font-weight: 700px;
+  height: 45px;
+}
+
+.profissao{
+  color: #873d48;
+  height: 60px;
+}
+
+.texto-sobre{
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.article-lista{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.topico-principal{
+  font-size: 36px;
+  color: #873d48;
+}
+
+.lista-item{
+  padding: 32px;
+}
+
+.lista-item ul li{
+  margin-top: 32px;
+}
+
+.lista-titulo{
+  margin-top: 5px;
+  font-size: 22px;
+  color: #873d48;
+  font-weight: 700;
+}
+
+.lista-local{
+  font-size: 18px;
+  color: #2f80ed;
+}
+
+.lista-descricao{
+  font-size: 18px;
+  margin-top: 5px;
+  line-height: 20px;
+  color: #828282;
+  font-weight: 300;
+}
+
+.portifolio{
+  height: 100vh;
+  display: flex;
+  background-color: #eaeaea;
+}
+
+.lista-item{
+  padding: 32px;
+}
+
+.lista-item ul li{
+  margin-bottom: 32px;
+}
+
+.rodape{
+ background-color: #526760;
+ height: 300px;
+ display: flex;
+ align-items: center;
+ 
+}
+
+.links{
+  color: #fff;
+  text-decoration: none;
+}
+
+.lista-rodape li{
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+
+  
+}
+ 
+.estilo-icone{
+  font-size: 32px;
+  margin-right: 10px;
+}
